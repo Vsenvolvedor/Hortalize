@@ -52,8 +52,9 @@ header{
     color: var(--text-color-contrast);
 }
 
-.list-nav li a:hover {
+.list-nav li a:hover, #sobre-button:hover {
     opacity: .85;
+    transition: .15s ease-in-out;
 }
 
 #home {
@@ -64,7 +65,7 @@ header{
     padding: 8% 0px;
 }
 
-#home > h1 {
+#home > h1,#sobre {
     display: grid;
     place-items: center;
 }
@@ -87,3 +88,67 @@ header{
     height: 5px;
     align-self: center;
 }
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.4rem;
+    font-family: var(--font-title);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 60px 0px;
+    width: fit-content;
+}
+
+.section-title::after {
+    display: block;
+    content: "";
+    background-color: var(--primary-contrast);
+    width: 75%;
+    height: 5px;
+    align-self: center;
+}
+
+.sobre-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: calc(2rem + 3vw);
+    margin-bottom: 30px;
+}
+
+.sobre-description p {
+    font-size: 1.8rem;
+    max-width: 580px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.sobre-icons {
+    display: flex;
+    gap: 60px;
+}
+
+.sobre-icons li {
+    display: block;
+    background-color: #282021;
+    width: 100px;
+    height: 100px;
+}
+
+.sobre-icons li:nth-child(even) {
+    margin-top: 60px;
+}
+
+#sobre-button {
+    background-color: var(--primary-bg);
+    font-size: 1.4rem;
+    font-family: var(--font-title);
+    color: var(--text-color-contrast);
+    padding: 12px 50px;
+    border: none;
+    border-radius: 15px;
+}
+
