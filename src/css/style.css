@@ -1,0 +1,17 @@
+:root{
+    --primary-bg: #F3607F;
+    --secondary-bg: #FEF2F4;
+    --primary-contrast: #B5E21F;
+    --text-color:#282021;
+    --text-color-contrast:#FEF2F4;
+    --font-text: "Nunito", sans-serif;
+    --font-title: "Domine", serif;
+
+    color: var(--text-color);
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+    font-size: 62.5%;
+}
