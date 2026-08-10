@@ -65,7 +65,7 @@ header{
     padding: 8% 0px;
 }
 
-#home > h1,#sobre {
+#home > h1,#sobre, #obj {
     display: grid;
     place-items: center;
 }
@@ -131,7 +131,7 @@ header{
     gap: 60px;
 }
 
-.sobre-icons li {
+.sobre-icons li, .obj-list li img {
     display: block;
     background-color: #282021;
     width: 100px;
@@ -152,3 +152,40 @@ header{
     border-radius: 15px;
 }
 
+#obj {
+    background-color: var(--secondary-bg);
+    margin-top: 90px;
+    padding: 0px 15px 90px 15px;
+}
+
+.obj-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.obj-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.obj-list h3 {
+    font-size: 2.4rem;
+    font-family: var(--font-title);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.obj-list p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+}
