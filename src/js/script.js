@@ -9,9 +9,7 @@ async function loadData() {
     }
 }
 
-const post_parent = document.querySelector(".posts-list")
-
-async function doLastNewsElemention(parent) {
+async function doLastNewsElemention() {
     const dataJson = await loadData();
     const lastnews_parent =document.querySelector(".news-list")
 
@@ -32,4 +30,25 @@ async function doLastNewsElemention(parent) {
     })
 }
 
-doLastNewsElemention()
+async function doBlogPostList() {
+    const dataJson = await loadData()
+    const post_parent = document.querySelector(".posts-list")
+    
+    dataJson.forEach((item) => {
+
+        post_parent.innerHTML+= `
+        <li>
+            <a href="./post.html?id=${item.id}">
+                <img src="${item.image_short}" alt="">
+                <h2 class="section-title">
+                    ${item.title}
+                </h2>
+                <p>
+                    ${item.short_desc}
+                </p>
+            </a>
+        </li>
+        `
+    })
+}
+
