@@ -2,7 +2,8 @@
     {
         "id": 1,
         "author":"Joao",
-        "title":"Agricultura sustentável",
+        "title_short":"Agricultura sustentável",
+        "title":"Hortas em Apartamentos - Como cultivar alimentos em pequenos espaçõs",
         "short_desc":"A produção de alimentos está diretamente ligada à saúde das pessoas e do planeta. No entanto, os sistemas agrícolas convencionais, quando mal planejados...",
         "image_short":"./src/assets/post1.jpg",
         "image_big": "./src/assets/post-content1.jpg",
@@ -11,7 +12,8 @@
         {
         "id": 2,
         "author":"Andre",
-        "title":"Agricultura sustentável",
+        "title_short":"Agricultura sustentável",
+        "title":"Hortas em Apartamentos - Como cultivar alimentos em pequenos espaçõs",
         "short_desc":"A produção de alimentos está diretamente ligada à saúde das pessoas e do planeta. No entanto, os sistemas agrícolas convencionais, quando mal planejados...",
         "image_short":"./src/assets/post1.jpg",
         "image_big": "./src/assets/post-content1.jpg",
@@ -20,7 +22,8 @@
         {
         "id": 3,
         "author":"Fulano",
-        "title":"Agricultura sustentavel",
+        "title_short":"Agricultura sustentavel",
+        "title":"Hortas em Apartamentos - Como cultivar alimentos em pequenos espaçõs",
         "short_desc":"A produção de alimentos está diretamente ligada à saúde das pessoas e do planeta. No entanto, os sistemas agrícolas convencionais, quando mal planejados...",
         "image_short":"./src/assets/post1.jpg",
         "image_big": "./src/assets/post-content1.jpg",
@@ -29,7 +32,8 @@
         {
         "id": 4,
         "author":"Fulano",
-        "title":"Agricultura sustentável",
+        "title_short":"Agricultura sustentável",
+        "title":"Hortas em Apartamentos - Como cultivar alimentos em pequenos espaçõs",
         "short_desc":"A produção de alimentos está diretamente ligada à saúde das pessoas e do planeta. No entanto, os sistemas agrícolas convencionais, quando mal planejados...",
         "image_short":"./src/assets/post1.jpg",
         "image_big": "./src/assets/post-content1.jpg",
@@ -38,7 +42,8 @@
             {
         "id": 5,
         "author":"Fulano",
-        "title":"Agricultura sustentável",
+        "title_short":"Agricultura sustentável",
+        "title":"Hortas em Apartamentos - Como cultivar alimentos em pequenos espaçõs",
         "short_desc":"A produção de alimentos está diretamente ligada à saúde das pessoas e do planeta. No entanto, os sistemas agrícolas convencionais, quando mal planejados...",
         "image_short":"./src/assets/post1.jpg",
         "image_big": "./src/assets/post-content1.jpg",
@@ -47,7 +52,8 @@
             {
         "id": 6,
         "author":"Fulano",
-        "title":"Agricultura sustentável",
+        "title_short":"Agricultura sustentável",
+        "title":"Hortas em Apartamentos - Como cultivar alimentos em pequenos espaçõs",
         "short_desc":"A produção de alimentos está diretamente ligada à saúde das pessoas e do planeta. No entanto, os sistemas agrícolas convencionais, quando mal planejados...",
         "image_short":"./src/assets/post1.jpg",
         "image_big": "./src/assets/post-content1.jpg",
