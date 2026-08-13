@@ -49,6 +49,7 @@ async function doBlogPostList() {
         </li>
         `
     })
+    offLoading()
 }
 
 async function  doBlogPost() {
@@ -66,4 +67,11 @@ async function  doBlogPost() {
             ${item.description}
         `
     })
+
+    offLoading()
+}
+
+function offLoading() {
+   const loadingElement = document.querySelector(".loading");
+   loadingElement.classList.remove("loading-on")
 }
