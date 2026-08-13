@@ -55,19 +55,15 @@ async function  doBlogPost() {
     const dataJson = await loadData();
     const idPost = new URLSearchParams(document.location.search).get("id")
     const post = document.querySelector(".post-content")
-    const post_title = document.querySelector("#home h1 p")
  
     dataJson.forEach((item) => {
         if(item.id != idPost) return;
-        post_title.innerHTML = item.title
         post.innerHTML+= `
             <div class="post-image">
-                <img src="${item.image_big}" alt="">
+                <img src="${item.image_big}" alt="${item.title}">
                 <span>post por ${item.author}</span>
             </div>
-            <p>
-                ${item.description}
-            </p>
+            ${item.description}
         `
     })
 }
