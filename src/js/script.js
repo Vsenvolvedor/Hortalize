@@ -62,7 +62,7 @@ async function  doBlogPost() {
         post.innerHTML+= `
             <div class="post-image">
                 <img src="${item.image_big}" alt="${item.title}">
-                <span>post por ${item.author}</span>
+                 <!-- <span>post por ${item.author}</span>-->
             </div>
             ${item.description}
         `
