@@ -287,6 +287,10 @@ footer a {
         padding-bottom: 30px;
     }
 
+    .loading-text {
+        left: 40%;
+    }
+
 }
 
 @media (max-width:670px) {
