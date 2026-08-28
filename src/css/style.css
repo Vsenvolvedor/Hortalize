@@ -269,7 +269,7 @@ footer a {
     color: var(--primary-contrast);
 }
 
-@media (max-width:1050px) {
+@media (max-width:1100px) {
  
     .clear {
         display: none;
