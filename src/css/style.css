@@ -303,6 +303,16 @@ footer a {
         margin-top: 60px;
     }
 
+    .sobre-icons {
+        padding: 0 25px;
+        gap: 30px;
+    }
+
+    .sobre-icons li > img {
+        max-width: 100%;
+        min-width: 50px;
+    }
+
     .loading-text {
         left: 35%;
     }
@@ -330,13 +340,7 @@ footer a {
     }
 
     .sobre-icons {
-        padding: 0 25px;
         gap: 30px;
-    }
-
-    .sobre-icons li > img {
-        max-width: 100%;
-        min-width: 50px;
     }
 
     .loading-text {
