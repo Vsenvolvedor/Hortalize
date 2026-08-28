@@ -330,7 +330,13 @@ footer a {
     }
 
     .sobre-icons {
+        padding: 0 25px;
         gap: 30px;
+    }
+
+    .sobre-icons li > img {
+        max-width: 100%;
+        min-width: 50px;
     }
 
     .loading-text {
