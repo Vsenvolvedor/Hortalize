@@ -303,6 +303,10 @@ footer a {
         margin-top: 60px;
     }
 
+    .loading-text {
+        left: 35%;
+    }
+
 }
 
 @media (max-width:450px) {
@@ -327,5 +331,9 @@ footer a {
 
     .sobre-icons {
         gap: 30px;
+    }
+
+    .loading-text {
+        left: 25%;
     }
 }
